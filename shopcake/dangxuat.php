@@ -1,0 +1,12 @@
+<?php
+session_start();
+ 
+if (isset($_SESSION['username'])){
+    unset($_SESSION['username']); // xóa session login
+}
+
+
+?>
+<script>
+location :history.go(-1);
+</script>
