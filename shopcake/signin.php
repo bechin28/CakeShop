@@ -68,11 +68,11 @@
 						<table>
 							<tr>
 								<td><label for="name"> Nhập Email</label></td>
-								<td><input type="password" id="name" name= "tk"/></td>
+								<td><input type="text" id="name" name= "tk"/></td>
 							</tr>
 							<tr>
 								<td><label for="password">Mật khẩu</label></td>
-								<td><input type="text" id="password" name="mk" /></td>
+								<td><input type="password" id="password" name="mk" /></td>
 							</tr>
 							<tr>
 								<td></td>
