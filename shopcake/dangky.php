@@ -33,7 +33,14 @@ $diachi =postIndex("add");
 		}
 		else
 		{
-			
+		
+			if(!preg_match("/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/",$email))
+			{
+				?>
+           	 	<script>alert ("Email không hợp lệ !");</script>
+           		 <?php
+				 $err++;
+			}	
 			if(!preg_match("/^[0-9]*$/",$sdt)&& strlen($sdt)>15)
 			{
 				
